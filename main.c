@@ -11,7 +11,6 @@ int main()
     printf("%d+%d= %d",num1,num2,num1+num2);
     printf("\n%d-%d= %d",num1,num2,num1-num2);
     printf("\n%d*%d= %d",num1,num2,num1*num2);
-    printf("\n%d/%d= %d",num1,num2,num1/num2);
-
+    printf("\n%d/%d= %.2f",num1,num2,(float)num1/(float)num2);
     return 0;
 }
